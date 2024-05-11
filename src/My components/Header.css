@@ -1,0 +1,117 @@
+/* Header start */
+/* NavBar CSS Staet */
+header {
+    height: 55px;
+    background: #32127a;
+    transition: 0.3s;
+  }
+  
+  header.sticky{
+    box-shadow: 0px 1px 1.3px rgba(24, 24, 58, 0.877);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #32127a;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  .nav>a {
+    padding-left: 40px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+  .nav-items {
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+  
+  }
+  
+  .nav-items>div {
+    padding-left: 30px;
+    padding-right: 30px;
+  
+  }
+  
+  /* NavBar Login Button */
+  .nav-login {
+    padding-right: 40px;
+  }
+  
+  .nav-login>button {
+    cursor: pointer;
+    color: #32127a;
+    border-radius: 5px;
+    padding: 8px 5px;
+    border: #270d63;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+  }
+  
+  .nav-login>button>a {
+    margin-top: 2px;
+  }
+  
+  .nav-login>button:hover {
+    background-color: rgb(167, 164, 164);
+    transition: 0.3s;
+  }
+  
+  /* DropDown on NevBar */
+  .dropdown {
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .nav a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: none;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: #32127a;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-weight: lighter;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* DropDown END */
+  

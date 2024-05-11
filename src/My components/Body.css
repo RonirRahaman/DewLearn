@@ -1,0 +1,333 @@
+
+
+/* Body Start */
+/* 1st part start */
+#firstpagehead {
+    background-color: rgb(241, 248, 254);
+  }
+  
+  .sidehead {
+    display: flex;
+  }
+  
+  /* right card starts */
+  .card {
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    border-top: 3px solid rgb(50, 18, 122);
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .87);
+    width: 30%;
+  }
+  
+  .insidecard {
+    padding: 9px;
+    width: 100%;
+    display: inherit;
+  }
+  
+  .btn2 {
+    padding: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(50, 18, 122);
+    border-radius: 3px;
+    border: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .btncls {
+    padding: 14px;
+    width: 100%;
+  }
+  
+  .insidecard input {
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 3px;
+    color: rgb(17, 16, 16);
+  }
+  
+  .insidecard input:hover {
+    border: 1px solid black;
+  }
+  
+  .btn2:hover {
+    background-color: rgb(39, 14, 95);
+    transition: 0.5s;
+    box-shadow: 0 1px 4px 0 rgb(103, 72, 177);
+    cursor: pointer;
+  }
+  
+  /* right card ends */
+  
+  /* left card starts */
+  .leftcard {
+    margin: 100px 80px;
+    text-overflow: inherit;
+  }
+  
+  .card p {
+    font-size: 25px;
+  }
+  
+  .leftcard {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px
+  }
+  
+  /*  */
+  .silverlog {
+    border-radius: 6px;
+    margin-left: 25px;
+    width: 150px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .87);
+  }
+  
+  .btn {
+    padding: 0px 35px;
+    color: white;
+    background-color: rgb(50, 18, 122);
+    border-radius: 3px;
+    border: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 2px 4px 0 rgba(83, 83, 83, 0.87);
+  
+  }
+  
+  .side {
+    padding-top: 50px;
+    display: flex;
+  }
+  
+  .btn:hover {
+    background-color: rgb(39, 14, 95);
+    transition: 0.5s;
+    box-shadow: 0 2px 4px 0 rgba(54, 54, 54, 0.87);
+    cursor: pointer;
+  }
+  
+  /* left card ends */
+  
+  /* 2nd part start*/
+  
+  .middleup-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .middleup-body {
+    background-color: rgb(242, 237, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(80, 80, 80, 0.87);
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    color: RGBA(0, 0, 0, 0.87);
+    margin-left: 5%;
+    margin-right: 5%;
+  
+  }
+  
+  .middleup-body ul {
+    padding: 40px;
+    padding-left: 70px;
+  }
+  
+  .middleup-body ul li {
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  .boxesmiddle svg {
+    margin-right: 40px;
+    margin-bottom: -15px;
+  }
+  
+  /* middle boxes starts */
+  #middleup-box {
+    margin: 30px;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+  }
+  
+  #middleup-box .boxesmiddle {
+    border-radius: 4px;
+    margin: 1px 7px;
+    width: 275px;
+    height: auto;
+    background: rgb(252, 252, 252);
+    box-shadow: 0 2px 4px 0 rgba(80, 80, 80, 0.87);
+    font-size: 18px;
+  }
+  
+  .boxesmiddle {
+    padding: 7px;
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(39, 39, 39);
+  }
+  
+  #middleup-box .boxesmiddle p {
+    font-weight: 600;
+  }
+  
+  /* middle boxes ends */
+  
+  /* 2nd part end*/
+  
+  
+  /* 3rd part start */
+  #middle-secondup-box {
+    margin: 30px;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+  }
+  
+  .boxesmiddle {
+    border-radius: 3px;
+    margin: 1px 7px;
+    width: 350px;
+    height: auto;
+    background: rgb(241, 248, 254);
+    box-shadow: 0 2px 4px 0 rgba(80, 80, 80, 0.87);
+    font-size: 13px;
+  }
+  
+  .boxesmiddle p {
+    font-size: 17px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+  }
+  
+  #middle-secondup-box .boxesmiddle h2 {
+    background-color: rgb(50, 18, 122);
+    color: #fff;
+    border-radius: 4px 4px 0px 0px;
+    margin: -7px;
+    padding: 16px;
+  }
+  
+  .points-middleup {
+    margin: 25px 45px;
+  }
+  
+  .middle-secondup-foot {
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+  .center .silverlog {
+    height: 62px;
+    width: auto;
+  }
+  
+  /* 3rd ends */
+  /* 4th Strts */
+  #eligibility{
+    background-color: rgb(242, 237, 255);
+    padding-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 60px;
+  }
+  
+  .Eligibal-text h1{
+    color: #26167e;
+    font-size: 30px;
+    padding-left: 40px;
+  }
+  
+  .Eligibal-text ul{
+    font-size: 17px;
+  }
+  /* 3rd part Start */
+  #acca-learn {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  #acca-learn ul {
+    font-size: 16px;
+    color: rgb(48, 48, 48);
+  }
+  #acca-learn ul li {
+    padding-bottom: 5px;
+  }
+  #acca-learn .boxesmiddle {
+    border-radius: 8px;
+  }
+  #acca-learn .boxesmiddle h2 {
+    border-radius: 8px 8px 0px 0px;
+  }
+  #middle-secondup-box .btn {
+    padding: 10px 30px;
+    font-size: 0.875rem;
+  }
+  .points-middlesec1 {
+    margin: 170px 19px 0px 110px;
+  }
+  .points-middlesec2 {
+    margin: 108px 0px 0px 71px;
+  }
+  .points-middlesec3 {
+    margin: 18px 0px 0px 71px;
+  }
+  .points-middlesec h3 {
+    margin: 5px;
+  }
+  /* 3rd END */
+  /* 4th part Start */
+  #assistance {
+    background-color: rgb(242, 237, 255);
+    padding-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-left: 59px;
+    padding-top: 40px;
+  }
+  .assistance-text h1{
+    font-size: 24.5px;
+  }
+  .assistance-text p {
+  font-size: medium;
+  }
+  
+  
+  /* 4th END */
+  /* utility uses */
+  .heading {
+    font-size: 42px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: "Nunito Sans", sans-serif;
+  }
+  
+  .headingbar {
+    width: 120px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: #32127a;
+  }
+  
+  .center {
+    text-align: center;
+  }
